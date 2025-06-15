@@ -1,0 +1,15 @@
+.carousel {
+  width: 100vw; /* ocupa 100% da largura da tela */
+  height: 300px;
+  overflow: hidden;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none;
+}
+
+.carousel img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}

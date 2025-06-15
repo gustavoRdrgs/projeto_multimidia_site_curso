@@ -1,0 +1,104 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 76px;
+  padding: 0;
+  background-color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 60px;
+  border-left: 15px solid white;
+  margin-right: 10px;
+}
+
+.logo-text {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #525252;
+  user-select: none;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  padding: 1.5rem 1.5rem;
+  display: block;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  color: #000;
+  height: 76px;
+}
+
+.nav-links a:hover {
+  background-color: #e3e3e3; /* cor de fundo no hover */
+  color: rgb(148, 0, 0); /* muda a cor do texto */
+  text-decoration: none; /* mantém sem sublinhado */
+  height: 76px;
+}
+
+.dropdown {
+  padding: 1rem;
+  position: relative;
+}
+
+.dropdown:hover {
+  background-color: #e3e3e3; /* cor de fundo no hover */
+  color: rgb(148, 0, 0); /* muda a cor do texto */
+  border-right: 15px;
+}
+
+.arrow {
+  padding: 0.5rem;
+  margin-left: 0rem;
+  font-size: 1.5rem;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  min-width: 160px;
+  z-index: 1000;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li a {
+  padding: 1.5rem 1rem;
+  display: block;
+  color: #000;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  height: 65px;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #f0f0f0;
+  color: rgb(148, 0, 0);
+  height: 65px;
+}
+
+.icon {
+  margin-right: 0.5rem;
+  vertical-align: middle;
+  font-size: 1.2rem;
+}

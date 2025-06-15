@@ -1,0 +1,52 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Garante que o HTML e o body ocupem a tela inteira */
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+/* Garante que o conteúdo principal se expanda */
+#root {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Ajustes gerais */
+header,
+footer {
+  width: 100%;
+  background-color: #1e1e1e;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+main {
+  flex: 1;
+  padding: 2rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html,
+#root {
+  height: 100%;
+  margin: 0;
+}
