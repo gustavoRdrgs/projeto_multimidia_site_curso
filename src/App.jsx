@@ -1,6 +1,8 @@
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import SocialBar from "./components/SocialBar";
+import ExternalLinks from "./components/ExternalLinks";
+import Footer from "./components/Footer";
 import "./styles/global.css";
 
 function App() {
@@ -9,6 +11,8 @@ function App() {
       <Navbar />
       <Home />
       <SocialBar />
+      <ExternalLinks />
+      <Footer />
     </>
   );
 }

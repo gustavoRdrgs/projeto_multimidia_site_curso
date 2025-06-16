@@ -1,15 +1,42 @@
 .carousel {
-  width: 100vw; /* ocupa 100% da largura da tela */
+  position: relative;
+  width: 100vw;
   height: 300px;
   overflow: hidden;
-  margin: 0 !important;
-  padding: 0 !important;
-  border: none;
+  margin: 0;
+  padding: 0;
 }
 
 .carousel img {
   width: 100%;
   height: 100%;
-  display: block;
   object-fit: cover;
+  display: block;
+}
+
+/* Botões de navegação */
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.4);
+  border: none;
+  color: white;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  z-index: 2;
+  transition: background-color 0.3s;
+}
+
+.carousel-button:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.carousel-button.left {
+  left: 10px;
+}
+
+.carousel-button.right {
+  right: 10px;
 }

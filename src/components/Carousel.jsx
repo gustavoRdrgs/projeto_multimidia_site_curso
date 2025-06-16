@@ -1,25 +1,54 @@
 import { useState, useEffect } from "react";
 import "./Carousel.css";
+
 import banner1 from "../assets/banner1.png";
 import banner2 from "../assets/banner2.png";
 import banner3 from "../assets/banner3.png";
 
-const images = [banner1, banner2, banner3];
+const images = [
+  { src: banner1, link: "https://www.exemplo1.com" },
+  { src: banner2, link: "https://www.exemplo2.com" },
+  { src: banner3, link: "" },
+];
 
 export default function Carousel() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
+  const nextSlide = () => {
+    setCurrentIndex((prev) => (prev === images.length - 1 ? 0 : prev + 1));
+  };
+
+  const prevSlide = () => {
+    setCurrentIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1));
+  };
+
+  // Auto slide com intervalo
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentIndex((prev) => (prev + 1) % images.length);
-    }, 3000); // troca a cada 3 segundos
+      nextSlide();
+    }, 4000); // 5000 ms = 5 segundos
 
-    return () => clearInterval(interval);
+    return () => clearInterval(interval); // limpa o intervalo quando o componente desmonta
   }, []);
+
+  const currentImage = images[currentIndex];
 
   return (
     <div className="carousel">
-      <img src={images[currentIndex]} alt="Banner rotativo" />
+      {currentImage.link ? (
+        <a href={currentImage.link} target="_blank" rel="noopener noreferrer">
+          <img src={currentImage.src} alt={`Banner ${currentIndex + 1}`} />
+        </a>
+      ) : (
+        <img src={currentImage.src} alt={`Banner ${currentIndex + 1}`} />
+      )}
+
+      <button className="carousel-button left" onClick={prevSlide}>
+        &#10094;
+      </button>
+      <button className="carousel-button right" onClick={nextSlide}>
+        &#10095;
+      </button>
     </div>
   );
 }
