@@ -1,6 +1,7 @@
 import { FaBook } from "react-icons/fa";
 import { GiTeacher } from "react-icons/gi";
 import { HiAcademicCap } from "react-icons/hi2";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 import logo from "../assets/logo.png";
 
@@ -8,8 +9,10 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="logo">
-        <img src={logo} alt="Logo do site" />
-        <span className="logo-text">Computação</span>
+        <a href="/" className="logo-link">
+          <img src={logo} alt="Logo" className="logo" />
+          <span className="site-title">Computação</span>
+        </a>
       </div>
       <ul className="nav-links">
         <li>
@@ -18,14 +21,14 @@ export default function Navbar() {
           </a>
         </li>
         <li>
-          <a href="#">
+          <Link to="/professores">
             <GiTeacher className="icon" /> Professores
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#">
+          <Link to="/disciplinas">
             <FaBook className="icon" /> Disciplinas
-          </a>
+          </Link>
         </li>
 
         <li className="dropdown">

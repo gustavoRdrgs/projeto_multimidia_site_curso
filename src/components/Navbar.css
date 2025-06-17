@@ -102,3 +102,19 @@
   vertical-align: middle;
   font-size: 1.2rem;
 }
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit; /* herda a cor do texto padrão */
+}
+
+.logo-link:hover {
+  opacity: 0.8;
+}
+
+.site-title {
+  font-size: 2rem;
+  font-weight: bold;
+}

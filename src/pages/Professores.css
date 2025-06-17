@@ -1,0 +1,45 @@
+.professores-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.titulo {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.professores-lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.prof-card {
+  display: flex;
+  align-items: center;
+  width: calc(
+    50% - 1rem
+  ); /* 50% menos metade do gap para encaixar 2 por linha */
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.prof-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+
+.prof-info {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}

@@ -1,0 +1,40 @@
+.disciplina-card {
+  background-color: rgb(205, 240, 255);
+  border-radius: 16px; /* Cantos arredondados */
+  margin: 1rem 0;
+  padding: 1rem 2rem;
+  width: 100%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-header h3 {
+  margin-bottom: 0.2rem;
+}
+
+.card-header p {
+  color: rgb(0, 0, 0);
+  font-size: 0.9rem;
+}
+
+hr {
+  margin: 0.8rem 0;
+  border: none;
+  border-top: 1px solid #000000;
+}
+
+.descricao {
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.icon {
+  font-size: 1.2rem;
+}

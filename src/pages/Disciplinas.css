@@ -1,0 +1,32 @@
+.disciplinas-container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.disciplinas-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.disciplinas-header h2 {
+  font-size: 2rem;
+}
+
+.disciplinas-header select {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.fluxograma-container {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.fluxograma-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
