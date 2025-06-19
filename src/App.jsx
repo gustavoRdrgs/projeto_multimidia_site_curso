@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import SocialBar from "./components/SocialBar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Disciplinas from "./pages/Disciplinas";
 import Professores from "./pages/Professores";
+import PlanoCurso from "./pages/PlanoCurso";
 import "./styles/global.css";
 
 function App() {
@@ -15,6 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/disciplinas" element={<Disciplinas />} />
         <Route path="/professores" element={<Professores />} />
+        <Route path="/plano-curso" element={<PlanoCurso />} />
       </Routes>
       <Footer />
     </Router>

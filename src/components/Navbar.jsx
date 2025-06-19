@@ -16,9 +16,9 @@ export default function Navbar() {
       </div>
       <ul className="nav-links">
         <li>
-          <a href="#">
-            <HiAcademicCap className="icon" /> Plano de curso
-          </a>
+          <Link to="/plano-curso">
+            <HiAcademicCap className="icon" /> Plano de Curso
+          </Link>
         </li>
         <li>
           <Link to="/professores">

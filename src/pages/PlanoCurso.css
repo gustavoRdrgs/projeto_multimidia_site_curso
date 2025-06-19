@@ -1,0 +1,17 @@
+.pdf-container {
+  width: 100vw;
+  height: calc(100vh - 100px); /* Ajuste conforme Navbar + SocialBar */
+  overflow: auto;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.pdf-frame {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
