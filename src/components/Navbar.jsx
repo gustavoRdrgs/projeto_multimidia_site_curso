@@ -16,11 +16,6 @@ export default function Navbar() {
       </div>
       <ul className="nav-links">
         <li>
-          <Link to="/plano-curso">
-            <HiAcademicCap className="icon" /> Plano de Curso
-          </Link>
-        </li>
-        <li>
           <Link to="/professores">
             <GiTeacher className="icon" /> Professores
           </Link>
@@ -30,6 +25,11 @@ export default function Navbar() {
             <FaBook className="icon" /> Disciplinas
           </Link>
         </li>
+        <li>
+          <Link to="/plano-curso">
+            <HiAcademicCap className="icon" /> Plano de Curso
+          </Link>
+        </li>
 
         <li className="dropdown">
           <span className="dropdown-toggle">
@@ -37,13 +37,13 @@ export default function Navbar() {
           </span>
           <ul className="dropdown-menu">
             <li>
-              <a href="#">TCC</a>
+              <Link to="/tcc">Requerimento TCC</Link>
             </li>
             <li>
-              <a href="#">Estágio</a>
+              <Link to="/estagio">Estágio</Link>
             </li>
             <li>
-              <a href="#"> Contato</a>
+              <Link to="/contato">Contato</Link>
             </li>
           </ul>
         </li>

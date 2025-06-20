@@ -23,7 +23,7 @@ export default function SocialBar() {
         <a href="https://x.com/uepbonline" target="_blank" rel="noreferrer">
           <FaTwitter />
         </a>
-        <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+        <a href="/contato">
           <MdContacts />
         </a>
       </div>

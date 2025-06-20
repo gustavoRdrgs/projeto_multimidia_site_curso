@@ -1,27 +1,22 @@
 import SocialBar from "../components/SocialBar";
-import "./PlanoCurso.css";
+import "./TCC.css";
 
-export default function PlanoCurso() {
+export default function TCC() {
   return (
     <>
       <SocialBar />
       <main>
         <div className="plano-container">
-          <h2 className="titulo-plano">PLANO DE CURSO</h2>
+          <h2 className="titulo-plano">REQUERIMENTO DE TCC</h2>
           <div className="plano-header">
-            <a
-              href="/pdfs/plano-curso.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="botao-pdf"
-            >
-              Ver em tela cheia
+            <a href="/pdfs/requerimento.pdf" download>
+              <button>📥 Baixar Requerimento</button>
             </a>
           </div>
 
           <div className="pdf-iframe-wrapper">
             <iframe
-              src="/pdfs/plano-curso.pdf#zoom=100"
+              src="/pdfs/requerimento.pdf#zoom=100"
               title="Plano de Curso"
               width="100%"
               height="1000px"

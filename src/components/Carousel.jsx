@@ -6,8 +6,11 @@ import banner2 from "../assets/banner2.png";
 import banner3 from "../assets/banner3.png";
 
 const images = [
-  { src: banner1, link: "https://www.exemplo1.com" },
-  { src: banner2, link: "https://www.exemplo2.com" },
+  { src: banner1, link: "https://suap.uepb.edu.br/" },
+  {
+    src: banner2,
+    link: "https://departamentos.uepb.edu.br/comp-ccea/apresentacao-do-curso/",
+  },
   { src: banner3, link: "" },
 ];
 

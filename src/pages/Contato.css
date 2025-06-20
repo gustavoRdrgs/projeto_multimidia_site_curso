@@ -1,0 +1,63 @@
+.contato-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.contato-titulo {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #1e1e1e;
+}
+
+.contato-card {
+  border: 2px solid #004aad; /* azul */
+  background-color: #f7f7f7;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+}
+
+.contato-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.contato-icon {
+  font-size: 2.2rem;
+  color: #004aad;
+  flex-shrink: 0;
+}
+
+.contato-section h3 {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.contato-section hr {
+  margin: 0.5rem 0 1rem;
+  border: none;
+  border-top: 2px solid #004aad;
+}
+
+.contato-section p {
+  margin: 0.2rem 0;
+  color: #333;
+}
+
+.telegram-icon {
+  font-size: 2.2rem;
+  color: #4d9aff;
+  flex-shrink: 0;
+}
+
+hr {
+  width: 350px; /* define o tamanho fixo da linha */
+  height: 1px; /* espessura da linha */
+  background-color: #004aad; /* cor da linha */
+  border: none; /* remove a borda padrão do navegador */
+  margin: 0.5rem 0; /* margem acima e abaixo */
+}
