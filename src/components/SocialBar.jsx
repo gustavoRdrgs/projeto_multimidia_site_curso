@@ -1,4 +1,5 @@
-import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaTelegram } from "react-icons/fa6";
 import { MdContacts } from "react-icons/md";
 import "./SocialBar.css";
 
@@ -7,11 +8,11 @@ export default function SocialBar() {
     <div className="social-bar">
       <div className="social-icons">
         <a
-          href="https://www.facebook.com/UEPBOficial"
+          href="https://t.me/+OmR1fzcJXSoxZDkx"
           target="_blank"
           rel="noreferrer"
         >
-          <FaFacebook />
+          <FaTelegram />
         </a>
         <a
           href="https://www.instagram.com/compuepb/"
