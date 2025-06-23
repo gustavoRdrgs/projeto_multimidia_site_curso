@@ -39,7 +39,7 @@
 }
 
 .external-links-header h2 {
-  white-space: nowrap; /* impede quebra de linha no texto */
+  white-space: nowrap;
   margin: 0;
 }
 

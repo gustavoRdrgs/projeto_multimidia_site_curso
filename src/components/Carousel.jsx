@@ -25,13 +25,12 @@ export default function Carousel() {
     setCurrentIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1));
   };
 
-  // Auto slide com intervalo
   useEffect(() => {
     const interval = setInterval(() => {
       nextSlide();
-    }, 4000); // 5000 ms = 5 segundos
+    }, 4000);
 
-    return () => clearInterval(interval); // limpa o intervalo quando o componente desmonta
+    return () => clearInterval(interval);
   }, []);
 
   const currentImage = images[currentIndex];
