@@ -13,65 +13,136 @@ const professores = [
     foto: prof1,
   },
   {
-    nome: "Profª. Maria Oliveira",
-    disciplina: "Algoritmos",
-    email: "maria.oliveira@universidade.edu",
+    nome: "Profª. Ana Isabella Muniz Leite",
+    disciplina:
+      "Engenharia de Software I, Gerência de Projetos, Tópicos Especiais em Engenharia de Software.",
+    email: "isabella@servidor.uepb.edu.br",
     lattes: "https://lattes.cnpq.br/987654321",
     foto: prof2,
   },
   {
-    nome: "Prof. João Mendes",
+    nome: "Prof. Antonio Carlos de Albuquerque",
     disciplina: "Matemática Discreta I",
-    email: "joao.mendes@universidade.edu",
+    email: "antoniocarlosdc@uepb.edu.br",
     lattes: "https://lattes.cnpq.br/123456789",
     foto: prof2,
   },
   {
-    nome: "Profª. Larissa Lima",
+    nome: "Profª. Cheyenne Ribeiro Guedes Isidro",
     disciplina: "Linguagem de Programação I",
-    email: "larissa.lima@universidade.edu",
+    email: "charibeiro@servidor.uepb.edu.br ",
     lattes: "https://lattes.cnpq.br/456789123",
     foto: prof2,
   },
   {
-    nome: "Prof. Ricardo Alves",
+    nome: "Prof. Daniel Scherer",
     disciplina: "Organização de Computadores",
-    email: "ricardo.alves@universidade.edu",
+    email: "scherer@servidor.uepb.edu.br",
     lattes: "https://lattes.cnpq.br/654321987",
     foto: prof2,
   },
   {
-    nome: "Profª. Camila Rocha",
+    nome: "Prof. Dunfrey Pires Aragão",
     disciplina: "Estrutura de Dados",
-    email: "camila.rocha@universidade.edu",
+    email: "dunfrey.aragao@servidor.uepb.edu.br",
     lattes: "https://lattes.cnpq.br/112233445",
     foto: prof2,
   },
   {
-    nome: "Prof. Felipe Souza",
+    nome: "Prof. Edson Holanda Cavalcante Junior",
     disciplina: "Sistemas Operacionais",
-    email: "felipe.souza@universidade.edu",
+    email: "edsonholanda@uepb.edu.br",
     lattes: "https://lattes.cnpq.br/998877665",
     foto: prof2,
   },
   {
-    nome: "Profª. Beatriz Ferreira",
+    nome: "Prof. Eduardo Jorge Valadares Oliveira ",
     disciplina: "Cálculo Numérico",
-    email: "beatriz.ferreira@universidade.edu",
+    email: "edujvo@servidor.uepb.edu.br ",
     lattes: "https://lattes.cnpq.br/334455667",
     foto: prof2,
   },
   {
-    nome: "Prof. André Santos",
+    nome: "Prof. Fábio Luiz Leite Júnior",
     disciplina: "Lógica para Computação",
-    email: "andre.santos@universidade.edu",
+    email: "fabioleite@servidor.uepb.edu.br",
     lattes: "https://lattes.cnpq.br/776655443",
     foto: prof2,
   },
   {
-    nome: "Profª. Juliana Martins",
+    nome: "Prof. Frederico Moreira Bublitz",
     disciplina: "Computação Gráfica",
-    email: "juliana.martins@universidade.edu",
+    email: "fredbublitz@servidor.uepb.edu.br",
+    lattes: "https://lattes.cnpq.br/221133445",
+    foto: prof2,
+  },
+  {
+    nome: "Prof. Janderson Jason Barbosa Aguiar",
+    disciplina: "Computação Gráfica",
+    email: "janderson@servidor.uepb.edu.br",
+    lattes: "https://lattes.cnpq.br/221133445",
+    foto: prof2,
+  },
+  {
+    nome: "Profª. Katia Elizabete Galdino",
+    disciplina: "Computação Gráfica",
+    email: "katiagaldino@gmail.com",
+    lattes: "https://lattes.cnpq.br/221133445",
+    foto: prof2,
+  },
+  {
+    nome: "Profª. Kézia de Vasconcelos Oliveira Dantas",
+    disciplina: "Computação Gráfica",
+    email: "kezia.vasconcelos@servidor.uepb.edu.br",
+    lattes: "https://lattes.cnpq.br/221133445",
+    foto: prof2,
+  },
+  {
+    nome: "Profª. Luciana de Queiroz Leal Gomes",
+    disciplina: "Computação Gráfica",
+    email: "lucianaleal@servidor.uepb.edu.br",
+    lattes: "https://lattes.cnpq.br/221133445",
+    foto: prof2,
+  },
+  {
+    nome: "Prof. Misael Elias de Morais",
+    disciplina: "Computação Gráfica",
+    email: "moraiscg@gmail.com ",
+    lattes: "https://lattes.cnpq.br/221133445",
+    foto: prof2,
+  },
+  {
+    nome: "Prof. Paulo Eduardo e Silva Barbosa",
+    disciplina: "Computação Gráfica",
+    email: "pesbarbosa@gmail.com",
+    lattes: "https://lattes.cnpq.br/221133445",
+    foto: prof2,
+  },
+  {
+    nome: "Prof. Robson Pequeno de Sousa",
+    disciplina: "Computação Gráfica",
+    email: "sousarob@servidor.uepb.edu.br",
+    lattes: "https://lattes.cnpq.br/221133445",
+    foto: prof2,
+  },
+  {
+    nome: "Profª. Sabrina de Figueiredo Souto",
+    disciplina: "Computação Gráfica",
+    email: "sabrinadfs@servidor.uepb.edu.br",
+    lattes: "https://lattes.cnpq.br/221133445",
+    foto: prof2,
+  },
+  {
+    nome: "Prof. Vladimir Costa de Alencar",
+    disciplina: "Computação Gráfica",
+    email: "valencar@servidor.uepb.edu.br",
+    lattes: "https://lattes.cnpq.br/221133445",
+    foto: prof2,
+  },
+  {
+    nome: "Prof. Wellington Candeia de Araujo",
+    disciplina: "Computação Gráfica",
+    email: "wcandeia@servidor.uepb.edu.br",
     lattes: "https://lattes.cnpq.br/221133445",
     foto: prof2,
   },
@@ -88,8 +159,11 @@ export default function Professores() {
               <img src={prof.foto} alt={prof.nome} className="prof-img" />
               <div className="prof-info">
                 <h3>{prof.nome}</h3>
-                <p>{prof.disciplina}</p>
-                <p>{prof.email}</p>
+                <p>
+                  <br />
+                  Email:
+                  <b> {prof.email}</b>
+                </p>
                 <a href={prof.lattes} target="_blank" rel="noopener noreferrer">
                   Currículo Lattes{" "}
                   <FiExternalLink style={{ marginLeft: "4px" }} />
